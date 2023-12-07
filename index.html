@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO: DESCRIPCION DE DOCUMENTO -->
+  <meta name="description" content=" Velas aromaticas, Aceites esenciales y aromaticos, Equipos de relajación ">
+  <!-- SEO: PALABRAS CLAVE -->
+  <meta name="keywords" content=" velas, Aceites aromaticos, equipos de spa, velas de soja, masajeadores manuales">
+  <!--FAVICON link-->
+  <link rel="shortcut icon" href="./imagenes/favicon.png" />
+  <!--BOOTSTRAP link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!--AOS ANIMATION link-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- FONT AWESOME ICONS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!--BOOTSTRAP ICONS link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!--CSS link-->
+  <link rel="stylesheet" href="./css/estilo.css" />
+  <!--GOOGLE FONTS link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Lora:ital@1&family=Merriweather&family=PT+Serif:ital@1&display=swap"
+    rel="stylesheet" />
+  <title>VELAS&SPA</title>
+</head>
+
+<body>
+
+  <!--HEADER-->
+  <header>
+    <!-- bg-light es el fondo del menu -->
+    <nav class="navbar navbar-expand-lg navbar-light fondonav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="./imagenes/logo4.4.png" alt="velas&spa"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdropLive">
+                <i class="bi bi-cart4"></i>
+              </button>
+            </li>
+            <li>
+              <div class="d-flex flex-column ms-2">
+                <span class="qty d-none d-md-inline"><span id="cantidadProductosEnCarrito">0</span> Productos</span>
+                <span id="valorTotalCarrito" class="fw-bold d-none d-md-inline"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--FIN HEADER-->
+  <!--ANUNCIO HEADER-->
+  <div class="anuncio-header">
+    <p>Envios a todo Chile</p>
+  </div>
+  <!--FIN DE ANUNCIO HEADER-->
+
+  <!--MODAL CARRITO CON BOOTSTRAP-->
+
+  <div class="modal fade" id="staticBackdropLive" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLiveLabel" style="display: none;" aria-hidden="true">
+    <!-- Scrollable modal -->
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLiveLabel">Carrito de Compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <ul id="listaProducto"> </ul>
+          </div>
+          <p class="fs-5"><span class="fw-bold"> Total a pagar:</span> <span id="totalPagar"></span></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" id="limpiarCarrito">LIMPIAR CARRITO</button>
+          <button type="button" class="btn btn-primary " data-bs-dismiss="modal">FINALIZAR COMPRA</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--FIN DE MODAL CARRITO CON BOOTSTRAP-->
+
+  <!--SECCIÓN 1 PRODUCTOS-->
+
+  <h1 class="title">VELAS&SPA</h1>
+  <input type="text" id="buscadorProductos" class="buscador" placeholder="Buscar producto...">
+
+  <div id="contenedorProductos" class="d-flex flex-wrap m-auto"></div>
+
+
+  <!--FIN SECCIÓN 1 PRODUCTOS-->
+  <hr />
+  <!--SECCIÓN  2 RESENTACION DE LA EMPRESA-->
+
+  <section class="row mt-3" id="hero">
+    <!-- fila -->
+    <div class="col-md-6">
+      <h2>¿Quines somos?</h2>
+      <p>
+        Somos una microempresa que surge de la necesidad de brindarles a las personas las herramientas necesarias
+        para
+        relajar su mente y cuerpo del estrés y las preocupaciones del día a día, por sus propios medios.
+        Enfocándonos
+        así, en el público que no cuenta con el tiempo o los recursos necesarios para ir a un Spa tradicional.
+
+      </p>
+      <p>
+        En Velas&Spa encontrarás los implementos necesarios para comenzar esa rutina de relajación que tanto
+        necesitas. Encontraras velas aromáticas (hechas con cera de soja), aceites aromáticos y aceites para
+        masajes,
+        así como equipos de masajes ideales para que puedas comenzar tú mismo a realizar tus propias micro sesiones
+        de
+        spa al llegar a casa.
+
+      </p>
+    </div>
+    <div class="col-md-6" data-aos="fade-left">
+      <img src="./imagenes/28.jpg" class="img-fluid" alt="Dueños de la empresa" />
+    </div>
+  </section>
+
+  <section class="row mt-3 mb-3" id="hero">
+    <div class="col-md-6">
+      <h2>La importancia de relajarse...</h2>
+      <p>
+        “La relajación es una vía de escape esencial frente a la tensión. Nos beneficia en dos aspectos: permite que
+        la mente se desconecte de las situaciones que le generan tensión, al menos por breves instantes. Además,
+        contribuye a que nuestro cuerpo libere tensiones musculares, las cuales surgen a raíz del estrés”.
+      </p>
+
+      <p> Es importante practicar la relajación, pues nuestro cuerpo no está habituado a ella.
+        “Es fundamental aprender, incluso desde la infancia, cómo y cuándo relajarnos. Existe una percepción errónea
+        acerca de la relajación, al considerar que es exclusiva de personas religiosas o aquellos con un estilo de
+        vida vinculado a la naturaleza. Sin embargo, es una actividad beneficiosa en cualquier etapa de nuestra
+        existencia”.
+      </p>
+
+    </div>
+    <div class="col-md-6 align-self-center" data-aos="fade-left">
+      <div>
+        <img src="./imagenes/38.jpg" alt="persona relajándose">
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="py-4">
+    <div class="container">
+      <div class="row">
+        <ul class="col-md-6 col-sm-6">
+          <li>
+            <a href="./pages/terminos-y-condiciones.html">Terminos y Condiciones</a>
+          </li>
+          <li>
+            <a href="./pages/politica-de-cambios-y-devoluciones.html">Politica de Cambios y devoluciones</a>
+          </li>
+          <li>
+            <a href="./pages/politica-de-despacho.html">Politica de Despacho</a>
+          </li>
+        </ul>
+
+        <ul class="col-md-2  col-sm-6 ">
+
+          <li>
+            <a href="https://es-la.facebook.com/login"><i class="bi bi-facebook redes"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/?hl=es"><i class="bi bi-instagram redes"></i></a>
+          </li>
+          <li><a href="./index.html">INICIO</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!--FIN DE FOOTER-->
+  <!--BOOTSTRAP SCRIPT-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- AOS SCRIPT -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init(); </script>
+  <!--SCRIPT-->
+  <script src="./JS/proyecto.js" async></script>
+
+
+</body>
+
+</html>
