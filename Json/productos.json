@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "img": "./imagenes/4-fotor.png",
+    "nombre": "Vela soja con aroma citrico",
+    "descripcion": " Vela de soja con alto punto de fusion y aroma citríco.",
+    "precio": 6000,
+    "categoria": "Velas"
+  },
+  {
+    "id": 2,
+    "img": "./imagenes/26-fotor.png",
+    "nombre": "Vela soja con aroma vainilla",
+    "descripcion": "Vela de soja con alto punto de fusión y aroma a vainilla.",
+    "precio": 11000,
+    "categoria": "Velas"
+  },
+  {
+    "id": 3,
+    "img": "./imagenes/7-fotor.png",
+    "nombre": "Vela soja con aroma lavanda",
+    "descripcion": "Vela de soja con punto de fusión medio y aroma a lavanda.",
+    "precio": 7000,
+    "categoria": "Velas"
+  },
+  {
+    "id": 4,
+    "img": "./imagenes/6-fotor.png",
+    "nombre": "Vela soja con aroma rosas",
+    "descripcion": "Vela de soja con punto de fusión alto y aroma a rosas y jazmín.",
+    "precio": 6500,
+    "categoria": "Velas"
+  },
+  {
+    "id": 5,
+    "img": "./imagenes/9.jpg",
+    "nombre": "Aceite floral primavera",
+    "descripcion": "Aceite aromatico con olor primaveral, con efecto refrescante.",
+    "precio": 7000,
+    "categoria": "Aceites"
+  },
+  {
+    "id": 6,
+    "img": "./imagenes/8.jpg",
+    "nombre": "Aceite fruta tropical",
+    "descripcion": "Aceite aromatico, con olor kiwi, especial para después de la ducha.",
+    "precio": 6500,
+    "categoria": "Aceites"
+  },
+  {
+    "id": 7,
+    "img": "./imagenes/21.jpg",
+    "nombre": "Aceite con efecto calor",
+    "descripcion": "Aceite aromatico, con olor vainilla y efecto calor, especial para masajes.",
+    "precio": 7500,
+    "categoria": "Aceites"
+  },
+  {
+    "id": 8,
+    "img": "./imagenes/10.jpg",
+    "nombre": "Aceite floral refrescante ",
+    "descripcion": "Aceite aromatico con olor a rosas, para masaje en cuero cabelludo.",
+    "precio": 7000,
+    "categoria": "Aceites"
+  },
+  {
+    "id": 9,
+    "img": "./imagenes/31-fotor.jpg",
+    "nombre": "Frangancia olor naranja",
+    "descripcion": " Aromatiza tu hogar con con esta delicada fragancia de olor a naranjas frescas.",
+    "precio": 6500,
+    "categoria": "Fragancias"
+  },
+  {
+    "id": 10,
+    "img": "./imagenes/30-fotor.png",
+    "nombre": "Frangancia olor a menta",
+    "descripcion": "Aromatiza tu hogar con con esta delicada fragancia de olor a menta y limón.",
+    "precio": 7000,
+    "categoria": "Fragancias"
+  },
+  {
+    "id": 11,
+    "img": "./imagenes/32-fotor.jpg",
+    "nombre": "Frangancia olor lavanda",
+    "descripcion": "Aromatiza tu hogar con con esta delicada fragancia de olor a lavanda.",
+    "precio": 7500,
+    "categoria": "Fragancias"
+  },
+  {
+    "id": 12,
+    "img": "./imagenes/34-fotor.jpg",
+    "nombre": "Frangancia olor a Coco",
+    "descripcion": "Aromatiza tu hogar con con esta delicada fragancia de olor a coco.",
+    "precio": 8000,
+    "categoria": "Fragancias"
+  },
+  {
+    "id": 13,
+    "img": "./imagenes/27-fotor.jpg",
+    "nombre": "Masajeador electrico",
+    "descripcion": "Masajeador electrico para el cuerpo. Duración de bateria 72 horas.",
+    "precio": 35000,
+    "categoria": "Equipos"
+  },
+  {
+    "id": 14,
+    "img": "./imagenes/35-fotor.png",
+    "nombre": "Masajeador manual",
+    "descripcion": "Masajeador manual de madera para: espalda, piernas y brazos.",
+    "precio": 12000,
+    "categoria": "Equipos"
+  },
+  {
+    "id": 15,
+    "img": "./imagenes/36-fotor.jpg",
+    "nombre": "Masajeador para cabeza",
+    "descripcion": "Masajeador manual de aluminio para nervios craneales.",
+    "precio": 10000,
+    "categoria": "Equipos"
+  },
+  {
+    "id": 16,
+    "img": "./imagenes/37-fotor.jpg",
+    "nombre": "Masajeador para pies",
+    "descripcion": "Masajeador rotativo manual de madera (puntas con relieve) para pies.",
+    "precio": 14000,
+    "categoria": "Equipos"
+  },
+  {
+    "id": 17,
+    "img": "./imagenes/25-fotor.jpg",
+    "nombre": "Combos para rostro",
+    "descripcion": "Vela de soja con olor a coco, Dos jabones de avena y paño para el cuidado del rostro.",
+    "precio": 15000,
+    "categoria": "Combos"
+  },
+  {
+    "id": 18,
+    "img": "./imagenes/12-fotor.jpg",
+    "nombre": "Piedras para masaje",
+    "descripcion": "Piedras elaboradas con acero esmaltado y con acero recubierto de polvo y basalto.",
+    "precio": 18000,
+    "categoria": "Combos"
+  }
+]
